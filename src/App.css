@@ -1,0 +1,195 @@
+body {
+    font-family: 'Josefin Sans';
+    background-color: #07090c;
+    color: aliceblue;
+    height: 100%;
+  }
+  
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  .right-arrow,
+  .left-arrow {
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF2625;
+    font-size: 25px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: -20px;
+    right: 80px;
+    transform: scale(1, 1);
+    transition: 0.3s all ease-in-out;
+  }
+  
+  .right-arrow {
+    right: 140px;
+    position: static !important;
+  }
+  
+  .right-arrow:hover,
+  .left-arrow:hover {
+    transform: scale(1, 1);
+  }
+  
+  .react-horizontal-scrolling-menu--wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .detail-image {
+    width: 729px;
+    height: 742px;
+  }
+  
+  .exercise-card {
+    text-decoration: none;
+    transform: scale(1, 1);
+    transition: 0.3s all ease-in-out;
+  }
+  
+  
+  .bodyPart-card {
+    transform: scale(1, 1);
+    transition: 0.3s all ease-in-out;
+  }
+  
+  .exercise-card:hover,
+  .bodyPart-card:hover {
+    transform: scale(1.02, 1.02);
+  }
+  
+  .search-btn:hover {
+    color: #ffffff !important;
+    background-color: #e50a78f0 !important;
+  }
+  
+  .exercise-video {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 387px;
+    height: 381px;
+    text-decoration: none;
+  }
+
+  .css-fnnlp4-MuiButtonBase-root-MuiPaginationItem-root{
+    color: #ffffff !important;
+  }
+  .css-tocrui{
+    color: #ffffff !important;
+  }
+  .css-1scal0h-MuiPaginationItem-root{
+    color: #ffffff !important;
+  }
+
+
+  @media screen and (max-width:1280px) {
+    .detail-image {
+      width: 300px;
+      height: 300px;
+    }
+  
+  
+    .react-horizontal-scrolling-menu--scroll-container {
+      width: 100%;
+    }
+  
+    .left-arrow,
+    .right-arrow {
+      position: static !important;
+    }
+  
+    .exercise-video {
+      width: 320px;
+      height: 300px;
+    }
+
+    .exercise-cards{
+      width: 390px;
+      height: 470px;
+      justify-items: center !important;
+    }
+
+    .imageSize{
+      width: 370px;
+      height: 450px;
+    }
+  
+  }
+  @media screen and (max-width:1025px) {
+    .exercise-cards{
+      width: 390px;
+      height: 470px;
+      justify-items: center !important;
+    }
+
+    .imageSize{
+      width: 370px;
+      height: 450px;
+    }
+
+  }
+  @media screen and (max-width:900px) {
+    .exercise-cards{
+      width: 300px;
+      height: 460px;
+      justify-items: center !important;
+      align-items: start !important;
+    }
+
+    .imageSize{
+      width: 280px;
+      height: 440px;
+    }
+  }
+  
+  @media screen and (max-width:599px) {
+    .exercise-cards{
+      width: 380px;
+      height: 400px;
+      justify-items: center !important;
+    }
+
+    .imageSize{
+      width: 360px;
+      height: 400px;
+    }
+  }
+  
+  @media screen and (max-width:415px) {
+    .exercise-cards{
+      width: 320px;
+      height: 460px;
+      align-items: center !important;
+    }
+
+    .imageSize{
+      width: 300px;
+      height: 450px;
+    }
+  }
+   @media screen and (max-width:285px) {
+    .exercise-cards{
+      width: 260px;
+      height: 420px;
+    }
+
+    .imageSize{
+      width: 240px;
+      height: 400px;
+    }
+  }
